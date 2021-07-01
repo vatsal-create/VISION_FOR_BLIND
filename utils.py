@@ -1,0 +1,13 @@
+START = "startseq"
+STOP = "endseq"
+EPOCHS = 10
+USE_INCEPTION = True
+WIDTH = 299
+HEIGHT = 299
+OUTPUT_DIM = 2048
+embedding_dim = 200
+vocab_size=1652
+max_length = 34
+caption_wt_path =r"C:\Users\Desktop\NST\VISION-FOR-BLIND(WITHOUT APP)\caption-model .h5"
+inception_wt_path=r"C:\Users\Desktop\NST\VISION-FOR-BLIND(WITHOUT APP)\inception-weights.hdf5"
+text_to_sound_lang = 'en'
